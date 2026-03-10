@@ -24,3 +24,33 @@ This makes research papers readable for tools like **Claude, AI agents, Obsidian
 ```bash
 npm install paperflow-mcp
 ```
+
+---
+
+## Quick Config (Claude Desktop)
+
+macOS/Linux:
+
+```json
+{
+  "mcpServers": {
+    "paperflow": {
+      "command": "npx",
+      "args": ["-y", "paperflow-mcp"]
+    }
+  }
+}
+```
+
+Windows:
+
+```json
+{
+  "mcpServers": {
+    "paperflow": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "paperflow-mcp"]
+    }
+  }
+}
+```
