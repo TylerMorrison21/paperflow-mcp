@@ -8,6 +8,14 @@ This makes research papers readable for tools like **Claude, AI agents, Obsidian
 
 ---
 
+## Try Before Install
+
+Want to test quality first?
+
+Use the free web playground at **https://www.paperflowing.com** (no MCP install required), then install `paperflow-mcp` only if it fits your workflow.
+
+---
+
 ## Features
 
 - Convert **PDF -> clean Markdown**
